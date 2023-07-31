@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Format Text HTML</title>
+    </head>
+    <body>
+        <!--Heading-->
+        <h1>Mari Belajar HTML</h1>
+        <h2>Mari Belajar HTML</h2>
+        <h3>Mari Belajar HTML</h3>
+        <h4>Mari Belajar HTML</h4>
+        <h5>Mari Belajar HTML</h5>
+        <h6>Mari Belajar HTML</h6>
+
+        <br> <!--menambah/membuat enter-->
+        <hr> <!--menambah/membuat garis horizontal-->
+        <h3 align="center">Pembukaan UUD 1945</h3>
+        <!--"Align digunakan untuk menentukan perataan teks (center/left/right)"-->
+        <p>
+            yee merdeka
+        </p>
+    </body>
+</html>
