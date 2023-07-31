@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form control</title>
+    </head>
+    <body>
+        <h3>Form control pada HTML</h3>
+        <form class="" action="index.html" method="post">
+            <table cellpadding="5">
+                <tr>
+                    <td>Input Text</td>
+                    <td><input type="text" name="teks" value="" placeholder="Nama Lengkap"></td>
+                    <!--"placeholder"digunakan untuk watermak pada inputan-->
+                </tr>
+                <tr>
+                    <td>Textarea</td>
+                    <td><textarea nama="nama" rows="5" cols="30" placeholder="Alamat Lengkap"></textarea></td>
+                    <!--"cols"digunakan untuk menentukan jumlah karakter menyamping
+                        "rows"digunakan untuk menentukan jumlah baris textarea
+                    -->
+                </tr>
+                <tr>
+                    <td>Input Number</td>
+                    <td><input type="number" nama="angka" value="" placeholder="Usia"></td>
+                </tr>
+                <tr>
+                    <td>Input Password</td>
+                    <td><input type="password" nama="password" value="" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td>Input Date</td>
+                    <td><input type="date" nama="tanggal" value=""></td>
+                </tr>
+                <tr>
+                    <td>Input Time</td>
+                    <td><input type="time" nama="jam" value=""></td>
+                </tr>
+                <tr>
+                    <td>Input Range</td>
+                    <td><input type="range" nama="range" value=""></td>
+                </tr>
+                <tr>
+                    <td>Input Radio</td>
+                    <td>
+                        <input type="radio" nama="gender" value="L"> Pria
+                        <input type="radio" nama="gender" value="P"> Wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>Checkbox</td>
+                    <td>
+                        <input type="checkbox" nama="hobi[]" value="Sepak Bola"> Sepak Bola
+                        <input type="checkbox" nama="hobi[]" value="Basket"> Basket
+                        <input type="checkbox" nama="hobi[]" value="Voli"> Bola Voli
+                    </td>
+                </tr>
+                <tr>
+                    <td>Combo Box</td>
+                    <td>
+                        <select name="jurusan">
+                            <option value="">--Pilih Jurusan--</option>
+                            <option value="RPL">Rekayasa Perangkat Lunak</option>
+                            <option value="">Teknik Komputer dan Jaringan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Input File</td>
+                    <td><input type="color" name="warna" value=""></td>
+                </tr>
+                <tr>
+                    <td>Tombol</td>
+                    <td>
+                        <button type="button" name="button">Tombol Biasa</button>
+                        <button type="submit" name="button">Tombol submit data</button>
+                        <!--"Submit" digunakan untuk mengumpulkan data yang ada pada form-->
+                        <button type="reset" name="button">Tombol Reset</button>
+                        <!--"reset" digunakan untuk mereset inputan yang sudah terisi-->
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
