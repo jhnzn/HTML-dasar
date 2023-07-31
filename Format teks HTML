@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Format teks</title>
+    </head>
+    <body>
+        <h2>Latihan Membuat Format Teks</h2>
+        <ul>
+            <!--Format tebal-->
+            <li>
+                <b>tebal</b>
+            </li>
+            <!--Format Miring-->
+            <li>
+                <i>Miring</i>
+            </li>
+            <!--Format garis bawah-->
+            <li>
+                <u>Garis bawah</u>
+            </li>
+            <!--Format Superscript Text-->
+            <li>
+                Ini format pangkat x<sup>2</sup>+ y <sup>3</sup>=15
+            </li>
+            <!--Format Subscript Text-->
+            <li>
+                H<sub>2</sub>o<sub>3</sub>
+            </li>
+            <!--Format Hightlight-->
+            <li>
+                <mark>Coding itu mudah</mark>
+            </li>
+            <!--Format Coret-->
+            <li>
+                Pemrograman web itu <del>sulit</del>mudah
+            </li>
+        </ul>
+    </body>
+</html>
